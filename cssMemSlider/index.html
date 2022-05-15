@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Dmitriy Konnov" />
+    <meta name="description" content="CSS-Slider" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Slider</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="page">
+    <section class="slider">
+
+        <input type="radio" name="radio" id="i1" data-id="1" checked>
+        <input type="radio" name="radio" id="i2" data-id="2">
+        <input type="radio" name="radio" id="i3" data-id="3">
+        <input type="radio" name="radio" id="i4" data-id="4">
+        <input type="radio" name="radio" id="i5" data-id="5">
+
+        <img class="slider__img" src="./assets/1.png" alt="Meme1" data-id="1">
+        <img class="slider__img" src="./assets/2.jpg" alt="Meme2" data-id="2">
+        <img class="slider__img" src="./assets/3.jpg" alt="Meme3" data-id="3">
+        <img class="slider__img" src="./assets/4.jpg" alt="Meme4" data-id="4">
+        <img class="slider__img" src="./assets/5.jpg" alt="Meme5" data-id="5">
+
+        <p class="slider__caption" data-id="1">JavaScript everywhere...</p>
+        <p class="slider__caption" data-id="2">WTF</p>
+        <p class="slider__caption" data-id="3">Outer space rainbow cat </p>
+        <p class="slider__caption" data-id="4">Meme Pepe Sad</p>
+        <p class="slider__caption" data-id="5">Meme Pepe Boss</p>
+
+        <div class="slider__controls">
+            <label for="i1" class="slider__control" data-id="1">
+                <div class="slider__circle"></div>
+            </label>
+            <label for="i2" class="slider__control" data-id="2">
+                <div class="slider__circle"></div>
+            </label>
+            <label for="i3" class="slider__control" data-id="3">
+                <div class="slider__circle"></div>
+            </label>
+            <label for="i4" class="slider__control" data-id="4">
+                <div class="slider__circle"></div>
+            </label>
+            <label for="i5" class="slider__control" data-id="5">
+                <div class="slider__circle"></div>
+            </label>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
